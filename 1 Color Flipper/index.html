@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Flipper </title>
+     <link rel="stylesheet" href="stile.css">
+    
+
+</head>
+<body>
+    <h1>Color Flipper to Color Picker</h1>
+    <button id="blue" onclick="setcolor('blue')">Blue</butt0on>
+    <button id="red" onclick="setcolor('red')">Red</button>
+    <button id="green" onclick="setcolor('green')">Green</button>
+    <button id="black" onclick="setcolor('black')">Black</button>
+    <button id="random" onclick="randomcolor()">Random</button>
+    <button id="reset" onclick="setcolor('white')">Reset</button>
+     <!-- <button id="user" onclick="applyPickedColor()">Apply Color</button> -->
+ <!-- Unlimited color picker -->
+  <input type="color" id="colorPicker">
+
+  <!-- Show selected color code -->
+  <p>Selected Color: <span id="colorCode">#ffffff</span></p>
+
+     <script src="script.js"></script>
+</body>
+</html>

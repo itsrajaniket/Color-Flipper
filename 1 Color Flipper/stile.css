@@ -1,0 +1,53 @@
+
+      body {
+  text-align: center;
+  font-family: Arial, sans-serif; 
+  padding-top: 50px;
+}
+      h1 {
+                color:rgb(236, 157, 157);
+                font-size: 60px;
+               
+        }
+         button{
+           
+            border-radius: 10px;
+            width: 100px;
+            height: 40px;
+            margin: 5px;
+            color: rgb(237, 157, 9);
+            border-color: rgb(1, 1, 11);
+         
+             }
+
+
+
+        #green{
+            background-color: green;
+        }
+        #blue{
+            background-color: blue;
+        }
+        #red{background-color: red;
+        }
+        #black{
+            background-color: black;
+            
+        }
+       #random{
+        background-color: rgb(186, 214, 75);
+       }
+           #colorPicker {
+                 width: 100px;
+                 height: 40px; 
+                 margin: 5px;
+                 border-color: rgb(1, 1, 11);
+                 cursor: pointer; 
+          
+}
+
+                p {
+                 margin-top: 40px;
+                  font-size: 20px;
+}
+   
