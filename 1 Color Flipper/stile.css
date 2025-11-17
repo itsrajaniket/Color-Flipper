@@ -38,6 +38,7 @@
         background-color: rgb(186, 214, 75);
        }
            #colorPicker {
+             border-radius: 10px;
                  width: 100px;
                  height: 40px; 
                  margin: 5px;
